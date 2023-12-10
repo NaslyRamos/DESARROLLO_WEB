@@ -1,0 +1,23 @@
+body
+{
+    background-color: #E6B0AA;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1
+{
+    margin-top: 30px;
+    color: #E74C3C;
+}
+img
+{
+    margin-right: 15px;
+    border-color:  #E74C3C;
+    border-radius: 5px;
+    margin-top:30px ;
+}
+img:hover {
+    border: 5px solid rgb(94, 85, 194); /* Cambia el borde al color aquamarine */
+    opacity: 0.7;
+  }
+  
