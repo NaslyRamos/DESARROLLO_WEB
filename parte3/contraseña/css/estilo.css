@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    background-color: #D4E6F1;
+}
+.login-box{
+    background-color: #fff;
+    max-width: 400px;
+    height: 100%;
+    border-radius: 8px;
+    padding: 30px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.titulo
+{
+    text-align: center;
+}
+.form-row {
+    margin-bottom: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+
+.form-row label {
+    color: #2E4053;
+    font-weight: bold;
+    margin-right: 20px;
+    flex: 1;
+    max-width: 100px;
+    text-align: right;
+}
+
+
+.form-row input,
+.form-row select,
+.form-row button {
+    flex: 2;
+    height: 30px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+
+}
+
+
+.buttom {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.buttom:hover {
+    background-color: #063208;
+}
+
+/* Strength Meter Styles (Adjust as needed) */
+.strength_meter {
+    margin-top: 10px;
+}
+
+.strength_meter p {
+    margin: 0;
+}
+
+.veryweak { color: #d9534f; }
+.weak { color: #f0ad4e; }
+.medium { color: #5bc0de; }
+.strong { color: #5cb85c; }
